@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+
+	<link rel="stylesheet" type="text/css" href="app.css">
+	
+</head>
+<body>
+
+	<h1>Register</h1>
+
+	<p>Insert all kinds of text here. Here omes the random sdsfdodfkdfodjfodfjojdfsjdfojsdfodfjsodfnsdosdgonagosfgjsdogsfgosfgnsfognsofgnsfgo</p>
+
+<!-- Form tag enables form data -->
+<form>
+	<label for="firstname">First Name:</label>
+		<input id="firstname" type="text" placeholder="firstname" required>
+
+	<label for="lastname">Last Name:</label>
+		<input id="lastname" type="text" placeholder="lastname" required>
+<div>
+
+	<label for="male">Male</label>
+	<input id="male" type="radio" name="sexChoice" value="MALE">
+
+	<label for="female">Female</label>
+	<input id="female" type="radio" name="sexChoice" value="FEMALE">
+
+	<label for="other">Other</label>
+	<input id="other" type="radio" name="sexChoice" value="OTHER">
+</div>
+
+
+<div>
+
+<!-- The pattern attribute designates min,max lenth of charecters required. In the example below the 5 represents a 5 character minimum, the 10 represents a 10 character max -->
+	<label for="password">Password:</label>
+		<input id="password" type="password" pattern=".{5,10}" required title="password must be between 5 and 10 characters" placeholder="password" required>
+
+	<label for="email">EMAIL:</label>
+		<input id="email" type="email" placeholder="email" required>
+</div>
+
+<div>
+	
+	<label for="birthday">Birthday:</label>
+	<select id="birthday" name="month">
+		<option>Month</option>
+		<option>January</option>
+		<option>February</option>
+		<option>March</option>
+		<option>April</option>
+	</select>
+
+	<select id="birthday" name="day">
+		<option>Day</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+	</select>
+
+	<select id="birthday" name="year">
+		<option>Year</option>
+		<option>1980</option>
+		<option>1990</option>
+		<option>2000</option>
+		<option>2020</option>
+	</select>
+
+</div>
+
+<div>
+	<label for="terms">I agree to the terms and conditions:</label>
+	<input id="terms" type="checkbox" required>
+
+	<input type="submit" name="">
+</div>
+
+</form>
+
+</body>
+</html>
