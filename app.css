@@ -1,0 +1,29 @@
+h1 {
+		color: rgba(0, 51, 0, 1);
+		border: 2px solid rgba(0, 51, 0, .5);
+}
+
+li {
+		color: rgba(255, 255, 255, 1);
+}
+
+h4 {
+		background: rgba(255, 255, 255, 1);
+}
+
+body {
+		background: url("background1.jpg");
+	  	background-repeat: no-repeat;
+	  	background-size: cover;
+}
+
+label {
+		color: white;
+}
+
+p {
+	color:white;
+	width: 50%;
+	font-size: 120%;
+	border: 5px solid lightgreen;
+}
